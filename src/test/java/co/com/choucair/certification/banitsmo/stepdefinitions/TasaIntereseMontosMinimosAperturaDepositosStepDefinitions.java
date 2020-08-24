@@ -1,6 +1,7 @@
 package co.com.choucair.certification.banitsmo.stepdefinitions;
 
 import co.com.choucair.certification.banitsmo.tasks.Tarifario;
+import co.com.choucair.certification.banitsmo.tasks.TasaInteres;
 import cucumber.api.java.Before;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Entonces;
@@ -22,5 +23,6 @@ public class TasaIntereseMontosMinimosAperturaDepositosStepDefinitions {
 
     @Entonces("^Descarga el documento Tasas de interés y montos mínimos de apertura de Depósitos$")
     public void descargaDocumen() {
+        OnStage.theActorInTheSpotlight().attemptsTo(TasaInteres.descargar());
     }
 }

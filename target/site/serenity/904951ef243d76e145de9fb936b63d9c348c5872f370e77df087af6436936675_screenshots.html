@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2020 11:26</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2020 12:03</span>
     <br style="clear:left"/>
 </div>
 
@@ -195,9 +195,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Tasas de inter&eacute;s y montos m&iacute;nimos de apertura de Dep&oacute;sitos.
+                                <span class="failing-color">Tasas de inter&eacute;s y montos m&iacute;nimos de apertura de Dep&oacute;sitos.
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -214,19 +214,67 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.banitsmo.tasks.TasaInteres.performAs(TasaInteres.java:16)<br />co.com.choucair.certification.banitsmo.stepdefinitions.TasaIntereseMontosMinimosAperturaDepositosStepDefinitions.descargaDocumen(TasaIntereseMontosMinimosAperturaDepositosStepDefinitions.java:26)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //table[@class='table-responsive']//descendant::td//descendant::span[text()=¡Tasas de interés y montos mínimos de apertura de Depósitos']//ancestor::tr//descendant::a to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>co.com.choucair.certification.banitsmo.tasks.TasaInteres.performAs(TasaInteres.java :16)<br />co.com.choucair.certification.banitsmo.stepdefinitions.TasaIntereseMontosMinimosAperturaDepositosStepDefinitions.descargaDocumen(TasaIntereseMontosMinimosAperturaDepositosStepDefinitions.java :26)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource9084575730514763019.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="e9257e23c6a93e22cfcea97d594e6e8c86388fffd46133aa7984dbb3413cefb2.png" title=" Dado que el Usuario ingreso al portal web" width="1904"/>
-                <img src="e9257e23c6a93e22cfcea97d594e6e8c86388fffd46133aa7984dbb3413cefb2.png" title=" Usuario abrir" width="1904"/>
-                <img src="e9257e23c6a93e22cfcea97d594e6e8c86388fffd46133aa7984dbb3413cefb2.png" title=" Usuario opens the https://www.banistmo.com/wps/portal/banistmo/personas/" width="1904"/>
-                <img src="e9257e23c6a93e22cfcea97d594e6e8c86388fffd46133aa7984dbb3413cefb2.png" title=" Usuario abrir (completed)" width="1904"/>
-                <img src="e9257e23c6a93e22cfcea97d594e6e8c86388fffd46133aa7984dbb3413cefb2.png" title=" Dado que el Usuario ingreso al portal web (completed)" width="1904"/>
-                <img src="debae1572eaa806ae5d218b6d4f22bad3bd68448c07c8effb6afbb1befbabf06.png" title=" Cuando busca el tarifario" width="1904"/>
-                <img src="debae1572eaa806ae5d218b6d4f22bad3bd68448c07c8effb6afbb1befbabf06.png" title=" Usuario tarifario" width="1904"/>
-                <img src="debae1572eaa806ae5d218b6d4f22bad3bd68448c07c8effb6afbb1befbabf06.png" title=" Usuario clicks on Tarifario" width="1904"/>
-                <img src="debae1572eaa806ae5d218b6d4f22bad3bd68448c07c8effb6afbb1befbabf06.png" title=" Usuario tarifario (completed)" width="1904"/>
-                <img src="debae1572eaa806ae5d218b6d4f22bad3bd68448c07c8effb6afbb1befbabf06.png" title=" Cuando busca el tarifario (completed)" width="1904"/>
-                <img src="debae1572eaa806ae5d218b6d4f22bad3bd68448c07c8effb6afbb1befbabf06.png" title=" Entonces Descarga el documento Tasas de inter&eacute;s y montos m&iacute;nimos de apertura de Dep&oacute;sitos: <span class='success-color'>SUCCESS</span>" width="1904"/>
+                <img src="a00cc58c2b573121fa77d7064f5ae82836be0f463b9ba62c3b1fbdc50269920b.png" title=" Dado que el Usuario ingreso al portal web" width="1350"/>
+                <img src="a00cc58c2b573121fa77d7064f5ae82836be0f463b9ba62c3b1fbdc50269920b.png" title=" Usuario abrir" width="1350"/>
+                <img src="a00cc58c2b573121fa77d7064f5ae82836be0f463b9ba62c3b1fbdc50269920b.png" title=" Usuario opens the https://www.banistmo.com/wps/portal/banistmo/personas/" width="1350"/>
+                <img src="a00cc58c2b573121fa77d7064f5ae82836be0f463b9ba62c3b1fbdc50269920b.png" title=" Usuario abrir (completed)" width="1350"/>
+                <img src="d376c08852b0d42ef83cdd317f6bdfe6319a481ad093fab989b3cc13dce5348c.png" title=" Dado que el Usuario ingreso al portal web (completed)" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Cuando busca el tarifario" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Usuario tarifario" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Usuario clicks on Tarifario" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Usuario tarifario (completed)" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Cuando busca el tarifario (completed)" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Entonces Descarga el documento Tasas de inter&eacute;s y montos m&iacute;nimos de apertura de Dep&oacute;sitos" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Usuario tasa interes" width="1350"/>
+                <img src="d01972391c40ea7ee788fdbeb59d892c884de3129163b83356c76bcf00651b1e.png" title=" Usuario clicks on Tasas Interes: <span class='failing-color'>FAILURE</span>" width="1350"/>
             </div>
         </div>
 
