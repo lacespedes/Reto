@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Buscar tarifario." skipped="0" tests="1" time="35.69" timestamp="2020-08-24 12:03:16"><testcase name="Tasas de interés y montos mínimos de apertura de Depósitos."><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-co.com.choucair.certification.banitsmo.tasks.TasaInteres.performAs(TasaInteres.java:16)&#13;
-co.com.choucair.certification.banitsmo.stepdefinitions.TasaIntereseMontosMinimosAperturaDepositosStepDefinitions.descargaDocumen(TasaIntereseMontosMinimosAperturaDepositosStepDefinitions.java:26)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
