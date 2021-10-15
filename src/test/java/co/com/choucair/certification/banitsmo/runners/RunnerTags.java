@@ -8,8 +8,8 @@ import static cucumber.api.SnippetType.CAMELCASE;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        tags = {"@Regresion"},
-        features = "src/test/resources/features/ConversorTasasInteres.feature",
+        tags = {"@Reto"},
+        features = "src/test/resources/features/ReglamentoInversionVirtual.feature",
         plugin = {"pretty", "html:target/cucumber-html-report"},
         glue = "co.com.choucair.certification.banitsmo.stepdefinitions",
         snippets = CAMELCASE )

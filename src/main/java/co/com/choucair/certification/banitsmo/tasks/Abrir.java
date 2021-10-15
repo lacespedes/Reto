@@ -15,6 +15,6 @@ public class Abrir implements Task {
     public <T extends Actor> void performAs(T actor) {
         /*Usar en un archivo de properties, para faciliar el manejo de difentes ambientes*/
         //actor.wasAbleTo(Open.url("https://www.banistmo.com/wps/portal/banistmo/personas/"));
-        actor.wasAbleTo(Open.url("https://www.grupobancolombia.com/personas"));
+        actor.wasAbleTo(Open.url("https://www.grupobancolombia.com/"));
     }
 }

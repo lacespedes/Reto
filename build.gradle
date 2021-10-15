@@ -27,6 +27,8 @@ dependencies {
     compile 'net.serenity-bdd:serenity-cucumber:1.9.51'
     compile 'net.serenity-bdd:serenity-screenplay:2.1.6'
     compile 'net.serenity-bdd:serenity-screenplay-webdriver:2.1.6'
+    compile 'org.apache.pdfbox:pdfbox:2.0.24'
+
 
 }
 
